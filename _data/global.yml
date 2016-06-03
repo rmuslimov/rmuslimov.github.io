@@ -1,0 +1,16 @@
+# Site Settings
+title: "Hello. I'm Rustem Muslimov."
+description: "I'm a Python/Clojure developer."
+url: 'http://muslimov.com/' # the base hostname & protocol for your site
+nav: "true"
+footer_text: '© 2016 Rustem Muslimov'
+twitter: 'muslimov'
+github: 'rmuslimov'
+medium: ''
+linkedin: 'https://www.linkedin.com/in/rustem-muslimov-5982b045'
+stackoverflow: 'http://stackoverflow.com/users/1312054/rustem'
+
+# Admin Settings
+admin_name: 'Rustem Muslimov'
+admin_email: 'rustem@muslimov.com'
+google_analytics: "UA-9999999-99" # Update with your own tracking ID

@@ -1,0 +1,52 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          {% if site.data.global.title != '' %}
+          <h1 class="text-center">{{site.data.global.title}}</h1>
+          {% endif %}
+
+          {% if site.data.global.description != '' %}
+          <p class="text-center">{{site.data.global.description}}
+            <!-- {% include contact.html %} -->
+          </p>
+          {% endif %}
+
+          {% include contact-modal.html %}
+
+          <div class="hero-buttons">
+
+            {% if site.data.global.twitter != '' %}
+              <a href="https://twitter.com/{{ site.data.global.twitter }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+            {% endif %}
+            <!-- {% if site.data.global.linkedin != '' %} -->
+            <!--   <a href="https://{{ site.data.global.linkedin }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>Linkedin</button></a> -->
+            <!-- {% endif %} -->
+            {% if site.data.global.stackoverflow != '' %}
+              <a href="https://{{ site.data.global.stackoverflow }}"><button class="btn btn-default btn-lg"><i class="fa fa-stack-overflow fa-lg"></i>Stackoverflow</button></a>
+            {% endif %}
+            {% if site.data.global.github != '' %}
+              <a href="https://github.com/{{ site.data.global.github }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            {% endif %}
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- <a class="section-jump text-center" href="#portfolio"> -->
+      <!--   <i class="fa fa-angle-down fa-3x"></i> -->
+      <!-- </a> -->
+
+    </div>
+
+  </div>
+
+</div>
